@@ -1,0 +1,103 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #CCCCCC;
+    font-family: monospace;
+}
+
+.container
+{
+    height: 550px;
+    width: 330px;
+    background: #4d4a57;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.calculate-result
+{
+    height: 170px;
+    width: 100%;
+}
+
+.tresult
+{
+    color: rgb(255, 176, 5);
+    font-size: large;
+    position: absolute;
+    top: 20px;
+    right: 28px;
+    font-size: 37px;
+}
+.container .buttons
+{
+    height: 380px;
+    width: 100%;
+}
+
+.container .buttons button
+{
+    all: unset;
+    height: 55px;
+    width: 55px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    border-radius: 100%;
+    margin-left: 23px;
+    margin-top: 18px;
+    position: relative;
+    top: 150px;
+    cursor: pointer;
+    font-size: 28px;
+    
+}
+.container .buttons .ac
+{
+    color: #CCCCCC;
+}
+
+.container .buttons .highlight
+{
+    color: black;
+    background: #CCCCCC;
+    border-radius: 100%;
+}
+
+.input-field 
+{
+    all: unset;
+    position: absolute;
+    color: #967cfb;
+    top: 110px;
+    right: 20px;
+    text-align: right;
+    height: 48px;
+    width: 100%;
+    font-size: 37px;
+}
+.container .buttons button:nth-child(20)
+{
+    background: #795af6;
+    color: white;
+}
+.buttons:hover
+{
+   color: #000;
+}
+
+.container .buttons button:hover
+{
+    background-color: #795af6;
+}
